@@ -54,7 +54,7 @@ export default function Home() {
     console.log(kvSingle, kvArray);
   };
   useMqtt({
-    uri: "ws://47.236.10.165:30885/mqtt",
+    uri: "wss://47.236.10.165:30885/mqtt",
     options: {
       // username: process.env.NEXT_PUBLIC_MQTT_USERNAME,
       // password: process.env.NEXT_PUBLIC_MQTT_PASSWORD,
