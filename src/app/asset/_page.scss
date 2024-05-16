@@ -1,0 +1,6 @@
+.cds--tag--outline:not(.cds--tag--operational) {
+  background-color: var(--cds-background, #ffffff);
+  color: var(--cds-button-primary, #0f62fe);
+  outline: 1px solid var(--cds-button-primary, #0f62fe);
+  outline-offset: -1px;
+}
